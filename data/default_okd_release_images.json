@@ -1,11 +1,10 @@
 [
     {
-        "openshift_version": "4.16",
+        "openshift_version": "4.15",
         "cpu_architecture": "x86_64",
         "cpu_architectures": ["x86_64"],
-        "url": "registry.ci.openshift.org/origin/release:4.16",
-        "version": "4.16.0-0.okd",
-        "default": true,
-        "support_level": "beta"
+        "url": "quay.io/openshift/okd:4.15.0-0.okd-2024-03-10-010116",
+        "version": "4.15.0-0.okd-2024-03-10-010116",
+        "default": true
     }
 ]
