@@ -1,8 +1,8 @@
 [
     {
-        "openshift_version": "4.15",
+        "openshift_version": "4.16",
         "cpu_architecture": "x86_64",
-        "url": "https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/39.20240322.3.1/x86_64/fedora-coreos-39.20240322.3.1-live.x86_64.iso",
-        "version": "39.20240322.3.1"
+        "url": "https://okd-scos.s3.amazonaws.com/okd-scos/builds/414.9.202306050735-0/x86_64/scos-414.9.202306050735-0-live.x86_64.iso",
+        "version": "414.9.202306050735-0"
     }
 ]

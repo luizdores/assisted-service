@@ -24,10 +24,10 @@ data:
   POSTGRESQL_DATABASE: installer
   POSTGRESQL_PASSWORD: admin
   POSTGRESQL_USER: admin
-  PUBLIC_CONTAINER_REGISTRIES: 'registry.ci.openshift.org,quay.io'
+  PUBLIC_CONTAINER_REGISTRIES: 'quay.io'
   SERVICE_BASE_URL: http://192.168.18.242:8090
   STORAGE: filesystem
-  OS_IMAGES: '[{"openshift_version":"4.16","cpu_architecture":"x86_64","url":"https://okd-scos.s3.amazonaws.com/okd-scos/builds/414.9.202306050735-0/x86_64/scos-414.9.202306050735-0-live.x86_64.iso","version":"414.9.202306050735-0"}]'
-  RELEASE_IMAGES: '[{"openshift_version":"4.16","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"registry.ci.openshift.org/origin/release-scos:4.16.0-0.okd-scos-2024-07-18-091718","version":"4.16.0-0.okd-scos-2024-07-18-091718","default":true}]'
+  OS_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","url":"https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/39.20240322.3.1/x86_64/fedora-coreos-39.20240322.3.1-live.x86_64.iso","version":"39.20240322.3.1"}]'
+  RELEASE_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","cpu_architectures":["x86_64"],"url":"quay.io/openshift/okd:4.15.0-0.okd-2024-03-10-010116","version":"4.15.0-0.okd-2024-03-10-010116","default":true}]'
   ENABLE_UPGRADE_AGENT: "false"
   ENABLE_OKD_SUPPORT: "true"
